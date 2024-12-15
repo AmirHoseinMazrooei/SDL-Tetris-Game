@@ -1,0 +1,16 @@
+// filepath: .vscode/launch.json
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug",
+        "type": "cppvsdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/SDL2_Template.exe",
+        "args": [],
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "console": "internalConsole"
+      }
+    ]
+  }
